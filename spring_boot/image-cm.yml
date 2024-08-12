@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: springbootimagecm
+data:
+  IMAGE_NAME: "9902736822/springbootapp:v1.0.0"
