@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: springbootapp
-          image: release-image
+          image: 9902736822/springbootapp:v3.0.0
           ports:
           - containerPort: 8080
           volumeMounts:
