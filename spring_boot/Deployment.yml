@@ -4,6 +4,7 @@ metadata:
   name: springboot
   labels:
     app: springboot
+  
     tier: dev
 spec:
   replicas: 2
@@ -21,7 +22,7 @@ spec:
     spec:
       containers:
         - name: springbootapp
-          image: 9902736822/springbootapp:v3.0.0
+          image: 9902736822/springbootapp:v2.0.0
           ports:
           - containerPort: 8080
           volumeMounts:
